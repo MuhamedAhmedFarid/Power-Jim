@@ -3,7 +3,9 @@ import './about.css'
 
 function About() {
   return (
-    <div>About</div>
+    <div>About
+      please be that one
+    </div>
   )
 }
 

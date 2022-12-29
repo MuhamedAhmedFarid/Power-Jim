@@ -3,7 +3,7 @@ import './trainers.css'
 
 function Trainers() {
   return (
-    <div>Trainers</div>
+    <h1>Hlleo</h1>
   )
 }
 
