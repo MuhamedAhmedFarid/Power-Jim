@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-function Header() {
+function Header(props) {
   return (
-    <div>Header</div>
+    <header className='header'>
+      <div className='header__container'>
+        <div className='header__containr-bg'>
+          <img src={props.img}/>
+        </div>
+        <div className='header__content'>
+          <h2>{props.title}</h2>
+          <p>{props.children}</p>
+        </div>
+      </div>
+    </header>
   )
 }
 

@@ -146,3 +146,178 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimoials{
+    width: 50rem;
+    margin-inline: auto;
+}
+.head  {
+    margin: 0 0 4rem 25%;
+}
+.card .testimonial{
+    position: relative;
+    text-align: left;
+    margin-top: 5rem;
+}
+
+ .testinonial__avatar{
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid transparent;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    position: absolute;
+    margin-top: -5rem;
+   left: calc(50% - 2rem);
+   box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.4);
+   transition: var(--transition);
+} 
+
+.testimoials:hover .testinonial__avatar{
+    border-radius: 50%;
+    border-color: var(--color-gray-400) ;
+}
+
+.trstimonai__qoute{
+    font-style: italic;
+    margin: 1rem 0 2rem;
+}
+
+.card small .testimonial__title{
+    margin-top: 0.3rem;
+}
+ .testimonials__btn-container{
+    width: fit-content;
+    margin: 2.5rem auto 0 ;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.testimonials__btn{
+    background: transparent;
+    cursor: pointer;
+    border: none;
+
+    
+
+}
+
+.testimonials__btn svg{
+    fill: var(--color-primary);
+    font-size: 1.8rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .main__header{
+        height: fit-content;
+        padding: 12rem 0;
+    }
+    .main__header-container{
+        gap: 0;
+    }
+    .main__header-circle{
+        width: 16rem;
+        height: 16rem;
+    }
+ 
+
+
+    
+    .programs.wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .values__container{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+
+    }
+    .values__wrpper{
+        gap: 4rem 3rem;
+    }
+    .values__image{
+        display: none;
+    }
+
+
+
+    .faqs__wrapper{
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+    .testimoials{
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .main__header{
+        margin-top: 0;
+        padding: 12rem 0 0 ;
+        height: 100vh;
+    }
+    .main__header-right{
+        display: none;
+    } 
+
+    .main__header-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    .programs__wrapper{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .programs__program{
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    .values__wrpper{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    .card.values__value{
+        width: 84%;
+        margin-inline: auto ;
+    }
+
+    .faqs__wrapper{
+    gap: 1rem;
+    margin-top: 3rem;
+    }
+    .testimoials{
+        width: 100%;
+    }
+
+}
+

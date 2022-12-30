@@ -26,7 +26,6 @@ function MianHeader() {
                     </div>
                 </div>
             </Zoom>
-
         </div>
       </div>
     </header>

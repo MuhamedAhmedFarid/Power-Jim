@@ -20,6 +20,7 @@ function Home() {
       <FQAs />
     </Slide>
     <Testiosials />
+ 
 
     
     </div>

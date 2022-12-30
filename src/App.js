@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      {/* <Home /> */}
+      
     <Routes>
       <Route index element={<Home />} /> 
       <Route path="about" element={<About />} />
@@ -24,6 +24,7 @@ function App() {
       <Route path="noFound" element={<NoFound />} />  
       <Route path="trainers" element={<Trainers />} /> 
     </Routes>
+    
     </BrowserRouter>
   );
 }
