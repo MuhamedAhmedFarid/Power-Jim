@@ -247,6 +247,7 @@ footer{
     display: grid;
     grid-template-columns: 26rem 1fr 1fr 1fr;
     gap: 6rem;
+    border-bottom: var(--color-gray-200);
 }
 
 .footer__containr article{
@@ -284,6 +285,13 @@ footer{
 .footer__socials a:hover{
     background: var(--color-gray-100);
     background-color: transparent;
+    
+}
+.footer__copyright{
+    color: var(--color-gray-100);
+    text-align: center;
+    padding: 1.5rem;
+    
 }
 
 
