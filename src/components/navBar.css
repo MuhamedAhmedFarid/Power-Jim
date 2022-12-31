@@ -36,8 +36,8 @@ ul{
     transition: var(--transition);
 }
 
-.nav__links li a   :hover {
-    color: green;;
+.nav__links li:hover a {
+    color: var(--color-secondary);
 }
 
 .active-nav{
@@ -53,8 +53,8 @@ ul{
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
-    /* margin-top: .9rem; */
-    margin-top: 38px;
+    margin-top: .9rem;
+    
 }
 
 
