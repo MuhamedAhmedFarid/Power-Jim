@@ -31,8 +31,47 @@
     border: none;
 }
 
+.work{
+    margin: 4rem 6rem;
+    width: 600px;
+    background: var(--color-gray-400);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, .1);
 
 
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    
+}
+.work h1{
+    font-size: 2rem;
+    color: paleturquoise;
+
+   
+}
+.warrap{
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+.zeiad{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.warrap:hover .zeiad  {
+    transform: scale(1.1);
+}
 
 @media screen and (max-width:1024px) {
     .plans__container{
