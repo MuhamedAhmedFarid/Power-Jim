@@ -21,7 +21,7 @@ function Plans() {
                <h4>Features</h4>
                {
                 features.map(({feature, available}, index) =>{
-                  return <p key={index} className={!available ? 'disaanled' : '' }>{feature}</p>
+                  return <p key={index} className={!available ? 'disabled' : ""} >{feature}</p>
                 })
                }
                <button className='btn lg'> Choose Plan</button>

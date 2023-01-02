@@ -285,8 +285,17 @@ footer{
 .footer__socials a:hover{
     background: var(--color-gray-100);
     background-color: transparent;
-    
 }
+
+.footer__containr article a{
+    transition: var(--transition);
+}
+
+
+.footer__containr article a:hover{
+    color: var(--color-secondary);
+}
+
 .footer__copyright{
     color: var(--color-gray-100);
     text-align: center;

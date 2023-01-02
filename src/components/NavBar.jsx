@@ -6,6 +6,7 @@ import Logo from '../images/logo.png'
 import {FaBars} from 'react-icons/fa'
 import {MdOutlineClose} from 'react-icons/md'
 
+
 function NavBar() {
     const [isNavShowing, setIsNavShowing] = React.useState(false)
   return (
